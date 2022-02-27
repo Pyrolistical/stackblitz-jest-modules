@@ -2,17 +2,14 @@
   "name": "stackblitz-jest-modules",
   "private": true,
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest"
+    "test": "jest"
   },
   "author": "Ronald Chen <pyrogx1133@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "jest": "27.5.1"
   },
-  "jest": {
-    "transform": {}
-  }
+  "jest": {}
 }
